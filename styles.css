@@ -1,0 +1,16 @@
+.card:hover {
+  transform: translateY(-5px); /* Slight lift */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Stronger shadow */
+  transition: all 0.3s ease; /* Smooth animation */
+}
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue */
+  color: white;
+  transform: scale(1.05); /* Slightly bigger */
+  transition: all 0.3s ease;
+}
+footer a:hover {
+  color: #0d6efd; /* Change icon color to blue */
+  transform: scale(1.2); /* Bigger icon */
+  transition: all 0.3s ease;
+}
